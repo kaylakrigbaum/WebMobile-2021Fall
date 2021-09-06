@@ -178,14 +178,14 @@ footer a:hover {
   width: 40px;
   height: 40px;
 }
-.grid-container {
-  display: grid;
-  grid-template-columns: auto auto auto;
+.grid {
+  display: inline-block;
+  width: 500px;
+  height: 170px;
   padding: 10px;
-}
-.grid-item {
-  border: 1px solid rgba(0, 0, 0, 0.8);
-  width: 70px;
-  height: 70px;
   text-align: center;
+}
+.grid img {
+  width: 90px;
+  height: 90px;
 }
